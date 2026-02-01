@@ -1,4 +1,4 @@
-const SHEET_URL = "PASTE_YOUR_GOOGLE_SCRIPT_URL_HERE";
+const SHEET_URL = https://script.google.com/u/0/home/projects/1xwC4NHiJQ4BjTM2n5sA3WLhJdgq-bTi8OEXnbD-EJsKg86NiTfNJvoN0/edit;
 
 const questions = [
   { q: "7 + (-12)", a: -5 },
