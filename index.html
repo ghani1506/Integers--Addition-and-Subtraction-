@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SPN21 Integer Quiz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>SPN21 Mathematics Quiz</h1>
+  <p>Addition & Subtraction of Integers</p>
+
+  <div id="student-section">
+    <label>Name</label>
+    <input type="text" id="name" required>
+
+    <label>School</label>
+    <input type="text" id="school" required>
+
+    <label>Class</label>
+    <input type="text" id="class" required>
+
+    <button onclick="startQuiz()">Start Quiz</button>
+  </div>
+
+  <div id="quiz-section" class="hidden">
+    <h2 id="question-number"></h2>
+    <p id="question-text"></p>
+    <input type="number" id="answer">
+    <br><br>
+    <button onclick="nextQuestion()">Next</button>
+  </div>
+
+  <div id="result-section" class="hidden">
+    <h2>Result</h2>
+    <p id="score"></p>
+    <p id="status"></p>
+    <button onclick="location.reload()">Restart</button>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
